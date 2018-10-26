@@ -1,0 +1,162 @@
+@import url(normalize.css);
+@import url(base.css);
+@import url(icons.css);
+@import url(demo.css);
+@import url(style5.css);
+@import url(lightbox.css);
+
+/* Media Queries */
+
+@media screen and (min-width: 320px) {
+	body {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	article {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	article section {
+		margin: 0 auto;
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		padding: 1%;
+	}
+
+	iframe[width="853"] {
+		height: 300px;
+	}
+
+	.bt-menu-trigger:after {
+		content: "←";
+		top: 12%;
+		font-size: 1.1em;
+		position: relative;
+		padding-left: 34px;
+		color: white;
+	}
+
+	.hero p {
+		margin: 0;
+		max-width: 26em;
+	}
+
+	.hero ul {
+		margin: 0;
+		max-width: 26em;
+	}
+
+	#whip iframe {
+		height: 320px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		margin: auto;
+		max-width: 60em;
+		font-family: Helvetica, Arial, sans-serif;
+		background: #30343d;
+		padding: 1%;
+	}
+
+	article {
+		width: inherit;
+	}
+
+	article section {
+		width: 48%;
+		display: block;
+		float: left;
+		margin: 0 auto;
+		padding: 1%;
+	}
+
+	iframe[width="853"] {
+		height: 562px;
+	}
+
+	section.hero {
+		width: 60em;
+		height: 0 auto;
+	}
+
+	.hero p {
+		line-height: 1.4em;
+		max-width: 30em;
+		margin: 0 auto;
+		padding: 1em;
+	}
+
+	.hero ul {
+		line-height: 1.4em;
+		max-width: 30em;
+		margin: 0 auto;
+	}
+
+	#whip iframe {
+		height: 240px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	body {
+		margin: auto;
+		max-width: 60em;
+		font-family: Helvetica, Arial, sans-serif;
+		background: #30343d;
+		padding: 1%;
+	}
+	
+	.hero {
+		width: 60em;
+		height: auto;
+	}
+
+	.hero iframe {
+		width: 57em;
+	}
+
+	article {
+		width: inherit;
+	}
+
+	article section {
+		width: 48%;
+		display: block;
+		float: left;
+		margin: 0 auto;
+		padding: 1%;
+	}
+
+	.bt-menu-trigger {
+		position: fixed;
+		top: 10px;
+		left: 20px;
+		z-index: 100;
+		display: block;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+	}
+
+	.bt-menu-trigger:after {
+		content: "MENU";
+		top: 30%;
+		font-size: 1.1em;
+		position: relative;
+		padding-left: 56px;
+		color: white;
+	}
+
+	video {
+		width: 100%;
+	}
+
+	#whip iframe {
+		height: 240px;
+	}
+}

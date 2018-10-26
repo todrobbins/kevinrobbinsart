@@ -1,0 +1,175 @@
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+a:link { color: #ff5335; text-decoration: none; padding: 0; margin: 0; }
+a:visited { color: #ff5335; }
+
+body {
+	margin: auto;
+	max-width: 60em;
+	font-family: Helvetica, Arial, sans-serif;
+	background: #30343d;
+	padding: 1%;
+}
+
+body h1:first-child {
+	font-size: 1.6em;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 0px 1px 2px rgba(0,0,0,.7);
+	max-width: 60em;
+}
+
+.art {
+	font-size: 1.4em;
+	text-align: center;
+	color: #ff5335;
+	font-weight: 100;
+	text-shadow: 0px 1px 2px rgba(0,0,0,.7);
+	padding-bottom: 1em;
+	border-bottom: 1px solid white;
+}
+
+hr {
+	border-bottom: 1px solid white;
+	margin: 2em 0;
+}
+
+.hero {
+	max-width: 60em;
+}
+
+.hero p {
+	line-height: 1.6em;
+	max-width: 30em;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.hero ul {
+	line-height: 1.6em;
+	max-width: 30em;
+	margin: 0 auto;
+}
+
+iframe, video, embed, object, img {
+	max-width: 100%;
+}
+
+iframe {
+	padding: 0;
+	margin: 0;
+	transition: all .5s;
+}
+
+footer {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+	font-size: .9em;
+	line-height: 3em;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+}
+
+#animation, #commissions, #logo-design, #sketchbook {
+	background: white;
+	color: black;
+	width: 49%;
+	height: 30%;
+}
+
+#animation h2, #commissions h2, #logo-design h2, #sketchbook h2 {
+	font-size: 3em;
+	font-weight: 100;
+	color: white;
+	text-shadow: 0px 3px 5px rgba(0,0,0,.7);
+	margin: auto;
+	text-align: center;
+  	position: relative;
+  	top: -70%;
+  	z-index: 9999;
+}
+
+#animation {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+#commissions {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+#logo-design {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+#sketchbook {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+.bt-icon span {
+}
+
+#video_background {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+}
+
+p {
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	line-height: 1.4em;
+}
+
+.work {
+	box-shadow: 0 0px 0px rgba(0,0,0,0);
+	transition: all .4s ease-in-out;
+}
+
+.work h1 {
+	font-weight: 100;
+}
+
+.work:hover {
+	/*background: #ff5335;*/
+	box-shadow: 0 10px 20px rgba(0,0,0,.4);
+}
+
+.clear {
+	clear: both;
+}
+
+.form {
+	z-index: -999;
+}
+
+.contact {
+	margin-top: 1em;
+	background: #ff5335;
+	color: white;
+}
+
+.quote {
+	font-style: italic;
+	font-weight: 100;
+}
+
+#whip iframe {
+	width: 100%;
+}
